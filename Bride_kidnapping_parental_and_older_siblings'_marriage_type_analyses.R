@@ -40,7 +40,7 @@ U_village -> Marriage
 ')
 
 #2 Data preparation ----
-load( file = "Bride_kidnapping_parental_and_older's_siblings'_marriage_type_analyses.RData" )
+load( file = "Bride_kidnapping_parental_and_older_siblings'_marriage_type_analyses.RData" )
 
 #3 Analyses ----
 ##3.1 Parental marriage type ----
@@ -3401,3 +3401,4 @@ tibble( BType = c( "bOSisMG" , "bOSisMG" , "bOSisMG" , "bOSisMG" ,
                table.border.bottom.color = "black" ,
                table.border.bottom.width = px( 3 ) ) %>% 
   cols_width( everything() ~ px( 150 ) )
+
